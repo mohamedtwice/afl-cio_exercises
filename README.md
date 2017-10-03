@@ -2,14 +2,20 @@
 
 ### Exercise 1 ###
 [x] Combine the 2012 and 2014 volunteer shift files.
+
 [x] For this analysis, we only care about “Completed” shifts. Remove all shifts who don’t have a Status that is “Completed.”
+
 [x] For this analysis, we only want to study folks who did Walks, Phone Banks, Data Entry, or GOTV (Get Out The Vote). Remove shifts that have any other role.
+
 [x] Collapse this data file from the shift level, to the person level. You can de-duplicate on My Campaign ID, only keeping the record with only keeping the record with the most recent shift end date.
+
 [x] Bonus: try counting the number of walk, phone bank, data entry, and GOTV shifts that each person (each unique My Campaign ID) performed.
 
 ### Exercise 2 ###
 Tracking affiliate participation in our program
+
 [x] Combine the 2012 and 2014 volunteer shift files.
+
 [x] Combine the “Participant International” and “International Name” fields into a single column
 
 ### Exercise 3 ###
@@ -27,5 +33,6 @@ Here’s what we’d like to know:
 
 ### Exercise 4 ###
 [x] Using your master volunteer file, create a volunteer file to deliver to each state.
+
 [x] Using your master volunteer file, create a volunteer file to deliver to each international union.
  
